@@ -1,0 +1,78 @@
+body
+{
+    background-color: black;
+    color: red;
+}
+
+img
+{
+    width: 50%;
+}
+
+.jumbotron
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background: rgba(220, 220, 220, 0.1);
+}
+    .row h3
+    {
+        font-size: 2.5rem;
+        text-align: center;
+        color: chartreuse;
+    }
+.row
+{
+    justify-content: center;
+    align-content: center;
+    font-size: 1rem;
+    color: aqua;
+}  
+
+.hide
+{
+    display: none;
+    justify-content: center;
+    align-content: center;
+    font-size: 1rem;
+    color: aqua;
+    
+}
+    .show:hover .hide
+    {
+        display: flex;
+        
+    }
+
+footer 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: purple;
+}
+
+.social button
+{
+    font-size: 10rem;
+}
+
+.social i
+{
+    color: cornflowerblue;
+}
+
+hr
+{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+li
+{
+    color: red;
+}

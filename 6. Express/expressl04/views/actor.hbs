@@ -1,0 +1,20 @@
+<h1>Add new Actor</h1>
+<form action="/actor" method="POST">
+    <div>
+        <label for="first_name">firstName: </label>
+        <input type="text" name="first_name">
+    </div>
+    <div>
+        <label for="last_name">lastName: </label>
+        <input type="text" name="last_name">
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+
+<ol>
+    {{#each actors}}
+    <li>{{first_name}}  {{last_name}}</li>
+    {{/each}}
+</ol>

@@ -1,0 +1,18 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+<table>
+    <thead>
+        <th>City</th>
+        <th>State</th>
+        <th>Pop</th>
+    </thead>
+    {{#each cities}}
+    <tbody>
+        
+        <td>{{name}}</td>
+        <td>{{state}}</td>
+        <td>{{population}}</td>
+        
+    </tbody>
+    {{/each}} <!-- Creates new tbody for each object in cities -->
+</table>

@@ -1,0 +1,18 @@
+<h1>Hello {{user.FirstName}} {{user.LastName}}</h1>
+<h2>Email: {{user.Email}}</h2>
+<h3>Username: {{user.Username}}</h3>
+
+{{!-- {{#each user.posts}}
+{{PostTitle}} : {{PostBody}}
+{{/each}} --}}
+
+<ul>
+    {{#each user.posts}}
+    <hr>
+    <li>
+        <h2>{{PostTitle}}</h2>
+        <p>{{PostBody}}</p>
+    </li>
+    {{/each}}
+</ul>
+

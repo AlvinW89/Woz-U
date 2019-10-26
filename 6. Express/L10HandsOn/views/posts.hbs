@@ -1,0 +1,10 @@
+
+{{#each posts}}
+<form action="/users/" + post.PostId method="post">
+    <h2>{{PostTitle}}</h2>
+        <p>{{PostBody}}</p>
+        <p>Auther: {{user.FirstName}} {{user.LastName}}</p>
+
+        <button>Edit Post</button> | <button>Delete Post</button>
+</form>
+{{/each}}

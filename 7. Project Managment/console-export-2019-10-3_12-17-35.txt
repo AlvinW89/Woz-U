@@ -1,0 +1,13 @@
+The page was reloaded, because the character encoding declaration of the HTML document was not found when prescanning the first 1024 bytes of the file. The encoding declaration needs to be moved to be within the first 1024 bytes of the file. mail:4
+Content Security Policy: Directive ‘child-src’ has been deprecated. Please use directive ‘worker-src’ to control workers, or directive ‘frame-src’ to control frames respectively.
+Content Security Policy: Directive ‘child-src’ has been deprecated. Please use directive ‘worker-src’ to control workers, or directive ‘frame-src’ to control frames respectively. 2
+Content Security Policy: Ignoring ‘x-frame-options’ because of ‘frame-ancestors’ directive.
+Content Security Policy: Directive ‘child-src’ has been deprecated. Please use directive ‘worker-src’ to control workers, or directive ‘frame-src’ to control frames respectively.
+The character encoding declaration of the framed HTML document was not found when prescanning the first 1024 bytes of the file. When viewed without the document framing it, the page will reload automatically. The encoding declaration needs to be moved to be within the first 1024 bytes of the file. index.html:2
+Unhandled cloudos1 message: startupDataIsLoaded 
+Object { buildNumber: "1918Project46", masteringNumber: "1918B88" }
+main.js:11:1141964
+Content Security Policy: Directive ‘child-src’ has been deprecated. Please use directive ‘worker-src’ to control workers, or directive ‘frame-src’ to control frames respectively. 4
+Content Security Policy: Ignoring ‘x-frame-options’ because of ‘frame-ancestors’ directive. 2
+Content Security Policy: Directive ‘child-src’ has been deprecated. Please use directive ‘worker-src’ to control workers, or directive ‘frame-src’ to control frames respectively.
+Loading mixed (insecure) display content “http://51.77.59.226/r.php?t=o&d=213798&l=357&c=8548” on a secure page javascript-packed.js:1494:1143

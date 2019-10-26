@@ -1,0 +1,5 @@
+- 12 Grid Column
+^ A sidebar two most left Columns
+^ Ten Columns for the header
+-2 img six Columns each
+- A footer full lenth 12 grid Column

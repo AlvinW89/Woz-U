@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": 0,
+      "task": "Study Woz-U",
+      "note": "* Need to study new spells\n\n* done by sunday 3AM EST"
+    },
+    {
+      "task": "Sleep",
+      "note": "Try to sleep... ",
+      "id": 1
+    },
+    {
+      "task": "Test ME",
+      "note": "Dude where my car",
+      "id": 2
+    }
+  ]
+}

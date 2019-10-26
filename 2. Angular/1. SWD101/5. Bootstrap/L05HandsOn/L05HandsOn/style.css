@@ -1,0 +1,38 @@
+*
+{
+    padding: 0;
+    margin: auto;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.header-container
+{
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*
+     Use Gradiant Generator in current block: https://uigradients.com/#BlueRaspberry
+    */
+}
+.header-container, .main-container
+{
+    box-sizing: border-box;
+    height: 10em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container
+{
+    width: 50%;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+

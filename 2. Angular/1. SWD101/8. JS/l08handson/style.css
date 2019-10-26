@@ -1,0 +1,19 @@
+body
+{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    
+}
+h1
+{
+    background-color: red;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.input{
+    color: red;
+}

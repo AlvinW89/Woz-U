@@ -1,0 +1,11 @@
+{
+  "name": "l02handson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

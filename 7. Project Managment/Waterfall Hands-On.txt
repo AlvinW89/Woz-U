@@ -1,0 +1,127 @@
+# Waterfall Hands-On
+
+## Executive Summary
+
+*Your executive summary should be pretty brief, under 3 paragraphs and should provide a concise summary of the purpose and contents of the rest of the document.  Explain to the reader what they will get from this document.*
+
+This is going to be a social media app which students can share ideas with each other. This app is goaled towards students finding like-mined invdivuals to groups for completing projects.
+
+## Business Objectives
+
+*Business objectives should offer the details for why the project is important.  Outline the goals of the project int he sense of the value it will bring and set expectations.  Keep your objectives measurable to avoid confusion in whether or not they have been met.*
+
+This project is going to allow their students connect more effciently to share information amonst the themselves. This project is basicly going to be a forum, where students can edit/post/delete content as well connect with other like mineded inviduals. So we need a forum with a means for students to login and connect with other students.We can make a quality app in a short amount of time.
+
+## Background
+
+*Provide any relevant background information regarding why this project is being initiated*
+
+School needs students to have the ability to connect with one another. 
+It to help students find others to share ifnormation about projects they are working on.
+This will give the students a new resouce to infromation. 
+
+## Scope
+
+*The Scope section should outline what is and is not included as part of this project.  Oftentimes we make assumptions of features or functionality that is not necessarily required.  This is especially useful in a phased approach or when working on an existing system.*
+
+Our scope of this project is to make a simple forum. It will list posted topics in a list like rows. Users will have profiles so we can attach the authers tot he post. We want the ability for those post to be threads where other students can comment and have discussions.A simple means for Direct messaging and following another user. Beyond that we want to stay away from.
+
+## Functional requirements
+
+*This is where most of the detail should reside.  describe all of the required capabilities of the system in detail.  It is helpful to articulate features in terms of user capabilities.  Keep in mind that the features will be designed and developed off of these descriptions, so if you leave anything up to interpretation, you run the risk of the results not meeting your expectations.  You can also assume capabilities that are not mentioned here will not be included in the project, no matter how common or obvious they are.  You may want to break our subsections for each major feature to make the document more organized.*
+
+This App most requirments: 
+- The user needs to be able to log in, with their school informaton.
+* User login should link into a personal profile the user creates.
+* We want their profiles to be followed and update pushes to their followers.
+
+- Students will be able to post a form with title and body.
+* These post have the ability reply to and commented on.
+* Orgianal owner or Moderator can Delete, Edit, Lock the post from future change or dicsussion.
+* Push notfication on every update that can be silenced.
+
+- When it comes to the forum threads will be listed with newest on top.
+* Will need a type text search with simple filters:
+** Date - between dates
+** specific word search - search body and titles for key words
+** profile tags and other profile info. Only show Names, bio, and list of posts on profiles.
+
+## Personnel requirements
+
+*In this section you may want to describe the composition of the team, do you need dedicated development?  how many people?  How about design or QA?  Think about what personnel is required to make this project a success, and place your recommendations here.*
+
+We will need one to build basic css with grey color pallet.
+Need navebar - Home, Posts, Profile or login/lougout if nto logged in.
+Once done this person should move into designing profile. 
+* Profile Info and Follow button - 20% Mobile, 35% Tablet, 10-20% floated left.
+* Navigation menu - Mobile to Tablet right corner 3 line stacks menu that expands and left to right bar desktop.
+* rest of the screen space to be detdicated to posts.
+** User profile will have the users own posts.
+** main forum will have newest to oldest post. Want a clean search bar with history tracking. popup. 
+Make any new content not listed as basic as possible and will apply time at the end to fininlize any looks.
+
+I want one of you to work on the profile page's functionality.
+Set Database with users information Profile Info and Posts
+* Users Table: Key:UserId:number, Username:string, Password:Bcrypt-hashing, bio: string,name:string, email:string
+* Post table: Key:PostId:number, title: string, body:string, UserId: foreignKey, posted-date:date
+* History will be tracked with a cookie and verfied to the user who logged in. Inform user with a popup window while typing in the search box.
+Then start on connecting the database to the user profile.
+Showing their info and posts. 
+Give the user the ability to edit from profile page.
+User can edit own content in main forum posts. 
+
+One will need to start once the database has been established to work on the search endgine functionality.
+* let's make it responsive with past searches from a cookie that is secured to the login key of the user. 
+* List all post from current to oldest.
+* search can pull info base on title, key word, tags, users.
+
+Once done I want everyone to risk test the parts you have worked on.
+* Document any bugs and corrections made into git.
+* List of quaility look fors
+** What happens when a user goes out of boounds of this funtionality. 
+*** Please record 10 sec clip and store and titled Before after screens shots are fine.
+let's make the backend sharp and make any style improvements towards the front-end
+
+
+## Delivery schedule
+
+*It's often helpful to break a project out into phases or milestones.  In this section list out any logical checkpoints where you would like to see the project demonstrated to ensure that expectations are being met.  Describe the phase, and the functional requirements required for completion.*
+
+Start with what is going to be needed on the site. 
+* The one on Design focuses on design first.
+* After or while Database is needed.
+* Connecting back-end profile to front end profile.
+* Connecting after or while forum to backend to front end.
+* Connecting search engine after or while from back end to front end
+* After checked worked on code and test un-expected user behavior.
+* Then we will get one or more to deploy as needed. 
+All requeserments under: Personnel requirements
+
+## Other requirements
+
+*This section serves as a catch-all for any details that may not fit in other areas.  things like device or browser support, considerations for accessibility or inspiration for style.  Offer additional context here to ensure the project meets your vision*
+
+*Critical: Please make sure to comment all code and explain methods/functions
+
+## Assumptions
+
+*Oftentimes we are reliant on outside sources such as frameworks to be used, or services that our system will depend on.  In this section you should provide detail on any assumptions that you have made, such as the system being reliant on the availability of the Google Maps API.*
+
+We will be using Express for development. SQL2 for DataBase, and Bcrpty for security.
+
+
+
+## Limitations
+
+*Identify any limitations in terms of time, personnel, technical details, or other things that limit the scope, time, and cost of the project being discussed.*
+
+Basic design only.
+Basic functionality on methods and functions
+
+## Risks
+
+*Every project has inherent risks that may cause delay or even failure of a project.  You must identify this risks to show you know what they are, and also identify ways in which you would mitigate those risks.*
+
+
+We need communication to make sure we can look into a fast deployment. THis made lead to us steppoing on toes if not preformed.
+Bias towards your code will lead into failure. Address it as your checking another person code. Or we fail.

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>L10HandsOn</title>
+
+    <!-- css reset -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="master.css">
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/7093efdc49.js"></script>
+    <!-- Main JS -->
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header class="jumbotron">
+            <h1>Alvin - (student) Software Developer</h1>
+            <picture class="">
+                    <img  class="rounded mx-auto d-block" src="https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/62212844_2221847094547081_3576932760784207872_n.jpg?_nc_cat=111&_nc_oc=AQkxoOgM81WMKu8ry2he6y52Y3V4UNS-4LGKc8WxTmEbC4s5CqSwGkBwkB2e06o18QU&_nc_ht=scontent.ftpa1-2.fna&oh=6a87abecfba5a52b387f0f4a385c8176&oe=5DC19E12" alt="Picture of myself">
+            </picture>
+        </header>
+        <main class="row">
+            <div class="col-sm-3 display">
+                <div class="show">
+                    <h3><i class="fab fa-leanpub"></i> Skills</h3>
+                    <div class="hide">
+                        <ul>
+                            <li><i class="fab fa-html5"> HTML</i></li>
+                            <li><i class="fab fa-css3-alt"></i> CSS</li>
+                            <li><i class="fab fa-js"> JavaScript</i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!--End Skills Div-->
+            <div class="col-sm-3">
+                <div class="show">
+                        <h3><i class="fas fa-book"></i> Libraries</h3>
+                    <div class="hide">
+                            <ul>
+                                <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                                <li><i class="fas fa-code"></i> jQuery</li>
+                                <li><i class="fas fa-code"></i> JSON</li>   
+                            </ul>
+                    </div>
+                </div>
+            </div> <!-- End Library Div-->
+            <div class="col-sm-4">
+                <div class="show">
+                        <h3><i class="fas fa-book"></i> Proficiency</h3>
+                    <div class="hide">
+                            <ul>
+                                <li>MacOS & OSX</li>
+                                <li>Windows</li>
+                                <li>Tech Support Background</li>
+                                <li>Customer Service Skills</li>
+                            </ul>
+                    </div>
+                </div>
+            </div> <!-- End Library Div-->
+
+        </main> <!-- End of main and row-->
+        <br>
+        <hr>
+        <br>
+        <footer>
+            <div>
+                    <h2><i class="far fa-address-book"></i> Let us Connect!</h2>
+            </div>
+            <div class="social">
+                <button onclick="load()" class="btn"><i class="fab fa-git-square"></i></button>
+                <button class="btn"><a href="#"><i class="fab fa-linkedin"></i></a></button>
+                <button class="btn"><a href="https://www.facebook.com/KingVash?ref=bookmarks"><i class="fab fa-facebook-square"></i></a></button>
+                <button class="btn"><a href="mailto:test@test.com"><i class="fas fa-paper-plane"></i></a></button>
+            </div>
+
+            <div>
+                <ul id="gitRepos">
+                    
+                </ul>
+            </div>
+        </footer>
+    </div>
+    
+    
+</body>
+</html>

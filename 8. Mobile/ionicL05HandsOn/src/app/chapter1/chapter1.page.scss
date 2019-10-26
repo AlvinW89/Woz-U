@@ -1,0 +1,19 @@
+.intro-page{
+    background: url(https://s3.amazonaws.com/media-us-standrad/wp-content/uploads/2015/11/13025348/126-800x1200.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    margin: auto;
+    z-index: 2;
+    position: relative;
+    display: flex;
+}
+
+.intro-page p{
+    align-self: flex-end;
+    background: rgba(32, 32, 32, 0.5);
+    color: #fff;
+    text-indent: 10%;
+    padding: 5%;
+}

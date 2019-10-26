@@ -1,0 +1,24 @@
+.container, .container h3
+{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+}
+
+.container p
+{
+    text-align: initial;
+}
+
+.container h3
+{
+    background-color: purple;
+    width: 20%;
+    padding: 4px;
+    border: 5px dotted #fff;
+}
+
+.container h5
+{
+    font: 10rem italic red;
+}

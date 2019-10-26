@@ -1,0 +1,123 @@
+.films > img{
+    width: auto;
+    height: 400px;
+}
+
+
+/* Student Code */
+Body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+}
+header,
+.img-section,
+.bio-section,
+.skill-section,
+footer,
+.films,
+.contact-section
+{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    padding:0 10%;
+    flex-wrap: wrap;
+}
+
+header{
+    justify-content: flex-end;
+    background-color: grey;
+    font-size: 2em;
+    align-items: center;
+    border: blue solid 0.125em;
+    border-radius: 0.5rem;
+    margin: auto;
+    padding: 0%;
+}
+
+header a{
+    text-decoration: none;
+    color: honeydew;
+    padding-right: 1rem;
+}
+
+header a:hover{
+    color: blue;
+}
+
+.img-section{
+    margin-top: 1%;
+}
+
+.img-section img{
+    width: 100%;
+    border: 0.2em solid teal;
+    border-radius: 50px 0 0 0 ;
+}
+
+.img-section h1{
+    margin-top: -0.2em;
+    width: 100%;
+    background-color: grey;
+    border: 0.1em solid teal;
+    border-radius: 0 0 50px;
+    font-size: 3rem;
+    align-items: center;
+}
+
+.films h1{
+    width: 100%;
+}
+
+.films img{
+    justify-content: space-around;
+    padding: 1%;
+    width: auto;
+}
+
+footer{
+    justify-content: space-around;
+}
+
+.img-flex-fern{
+    order: 1;
+}
+
+/* Mobile */
+@media (max-width: 576px){
+    body{
+        font-size: 0.65rem;
+    }
+
+    header{
+        justify-content: space-around;
+    }
+    header nav a{  
+        display: flex;
+        flex-direction: column;flex-direction: column;
+    }
+    .films img{
+        width: 80%;
+        height: auto;
+    }
+    .img-section h1{
+        font-size: 1rem;
+    }
+              
+}
+/* Tablet */
+@media (max-width: 768px){
+    header{
+        justify-content: space-around;
+    }
+}
+/* Computer */
+@media (max-width: 992px) {
+    header a{
+        justify-content: flex-end;
+    }
+}
+
+
+
